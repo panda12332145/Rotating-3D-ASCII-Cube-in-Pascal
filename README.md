@@ -167,6 +167,6 @@ fpc rotating_cube.pas && ./rotating_cube
 - [ ] Adicionar cores (ANSI escape codes)
 - [ ] Sistema de partículas rotativas
 
-![OUTPUT](https://i.imgur.com/nO1ijxi.gif)
+<div align="center"> <img src="https://i.imgur.com/nO1ijxi.gif" alt="Cubo 3D Rotativo" width="400"> </div>
 
 *Projeto educativo para entender fundamentos de gráficos 3D!* 🎓
