@@ -8,9 +8,8 @@ Um programa Pascal que renderiza um cubo 3D rotativo usando caracteres ASCII no 
 - **Double buffering** com `z-buffer`
 
 ## 🌐 Fundamentos Matemáticos
-
 ### Matrizes de Rotação 3D ([Fonte](https://en.wikipedia.org/wiki/Rotation_matrix))
-([Inspiração👉](https://www.youtube.com/watch?v=p09i_hoFdd0&ab_channel=ServetGulnaroglu))
+[Inspiração👉](https://www.youtube.com/watch?v=p09i_hoFdd0&ab_channel=ServetGulnaroglu) 
 O cubo gira usando combinações de matrizes de rotação em 3 eixos:
 
 #### 1. Rotação nos Eixos Individuais
@@ -168,6 +167,8 @@ fpc rotating_cube.pas && ./rotating_cube
 - [ ] Adicionar cores (ANSI escape codes)
 - [ ] Sistema de partículas rotativas
 
-<img src="https://i.imgur.com/nO1ijxi.gif" alt="Cubo 3D Rotativo" width="200" height="200"/>
+<img src="https://s3.gifyu.com/images/b2PW5.gif" alt="Cubo 3D Rotativo" width="200" height="200"/>
+
+[Exemplo de Saída](https://s3.gifyu.com/images/b2PW5.gif)  
 
 *Projeto educativo para entender fundamentos de gráficos 3D!* 🎓
