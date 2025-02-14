@@ -15,9 +15,9 @@ O cubo gira usando combinações de matrizes de rotação em 3 eixos:
 #### 1. Rotação nos Eixos Individuais
 | Eixo | Matriz | Implementação no Código |
 |------|--------|-------------------------|
-| **X** | <img src="rotation_x.png" width="200"> | `j*Cos(A)`, `k*Sin(A)` |
-| **Y** | <img src="rotation_y.png" width="200"> | `i*Cos(B)`, `k*Sin(B)` |
-| **Z** | <img src="rotation_z.png" width="200"> | `j*Cos(C)`, `i*Sin(C)` |
+| **X** | <img src="7.png" width="200"> | `j*Cos(A)`, `k*Sin(A)` |
+| **Y** | <img src="8.png" width="200"> | `i*Cos(B)`, `k*Sin(B)` |
+| **Z** | <img src="9.png" width="200"> | `j*Cos(C)`, `i*Sin(C)` |
 
 #### 2. Rotação Combinada (Euler Angles)
 As funções `CalculateX/Y/Z` combinam as 3 rotações usando a ordem Z → Y → X:
@@ -35,7 +35,7 @@ ooz = 1/z (inverso da profundidade)
 xp = (x * K1 * ooz) + offset
 yp = (y * K1 * ooz) * -1 (inverte eixo Y)
 ```
-<img src="projection_diagram.png" width="400">
+<img src="10.png" width="400">
 
 ## 🧮 Implementação das Fórmulas
 ### Cálculo de Coordenadas 3D
@@ -58,13 +58,13 @@ end;
 
 ## 🖼️ Espaço para Imagens (Adicione 3 screenshots)
 1. **Diagrama de Rotação**  
-   ![Exemplo Rotação XYZ](rotation_diagram_placeholder.png)
+   ![Exemplo Rotação XYZ](1.png)
 
 2. **Equações Completas**  
-   ![Equações Expandidas](equations_placeholder.png)
+   ![Equações Expandidas](4.png)
 
 3. **Projeção 3D→2D**  
-   ![Diagrama Projeção](projection_placeholder.png)
+   ![Diagrama Projeção](2.png)
 
 ## 🔄 Fluxo de Transformações
 1. **Rotação 3D**  
